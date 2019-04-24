@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+</head>
+<body>
+	<h1>The Great <br>
+	 <span id="colorDisplay">RGB</span> <br>
+	Color Game</h1>
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button id="easyBtn">Easy</button>
+		<button id="hardBtn" class="selected">Hard</button>
+	</div>
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	<audio controls="" hidden="" id="wrongEffect">
+		<source  src="effects/beep.wav" type="audio/wav">
+	</audio>
+	<audio controls=""  hidden=""  id="correctEffect">
+		<source src="effects/correct.wav" type="audio/wav">
+	</audio>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
